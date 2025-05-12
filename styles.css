@@ -1,7 +1,4 @@
-/*
-Aquí comienza tu archivo CSS.
-Añade estilos a los elementos de la página HTML.
-*/
+/* Tobias benitez */
 
 body {
     font-family: sans-serif;
@@ -17,13 +14,16 @@ header {
     text-align: center;
 }
 
+
 main {
     padding: 20px;
 }
 
+
 section {
     margin-bottom: 20px;
 }
+
 
 ul {
     list-style-type: disc;
@@ -34,6 +34,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 300px;
+    margin: 0 auto; 
 }
 
 label {
@@ -44,6 +45,8 @@ input[type="text"],
 input[type="email"] {
     padding: 8px;
     margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc; 
 }
 
 input[type="submit"] {
@@ -52,6 +55,11 @@ input[type="submit"] {
     padding: 10px;
     border: none;
     cursor: pointer;
+    border-radius: 4px; 
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; 
 }
 
 footer {
@@ -61,4 +69,24 @@ footer {
     padding: 1em 0;
     bottom: 0;
     width: 100%;
+}
+
+h1 {
+    color: gold;
+    text-align: center;
+}
+
+h2 {
+    color: darkblue; 
+    text-align: center;
+}
+
+#unicoNombre {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nombre {
+    font-style: italic;
 }
